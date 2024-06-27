@@ -1,0 +1,17 @@
+button{
+    display:inline-block ;
+    border: 0;
+    padding: 1rem 3rem ;
+    border-radius: 3rem;
+    background: red;
+    text-transform: uppercase;
+    color: #fff;
+position: relative;
+top: 20px;
+left: 30px;
+cursor: progress;
+}
+
+button:hover{
+    background: rgb(107, 41, 41);
+}

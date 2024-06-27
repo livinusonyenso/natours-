@@ -1,0 +1,63 @@
+body{
+
+   
+    color: #777;
+    font-family: "lato",sans-serif;
+    line-height: 1.7;
+
+    box-sizing: border-box;
+}
+
+.heading-primary{
+    color: #fff;
+    text-transform: uppercase;
+    
+    backface-visibility: hidden;
+    
+    margin-bottom: 6rem;
+    
+    &--main{
+        font-size: 6rem;
+        font-weight: 400;
+        display: block;
+        letter-spacing: 3.5rem;
+        animation-name:  movetoleft;
+        animation-duration: 3s;
+
+        @include respond(phone){
+            letter-spacing: 1rem;
+            font-size: 5rem;
+        }
+    }
+    /* other animation attributes essentials
+    1. animation-delay: 3s;
+    2. animation-iteration-count: 3;
+    3. animation-timing-function: ease-in;
+    
+    */
+    &--sub{
+        font-size: 2rem;
+        font-weight: 700;
+        display: block;
+        letter-spacing: 1.75rem;
+    
+        /* animation-name: moveinright;
+        animation-duration: 3s; */
+        animation: moveinright 3s;
+
+        @include respond(phone){
+            letter-spacing: .5rem;
+        }
+    }
+    
+    
+    }
+    
+
+    .heading-tertiary{
+
+    }
+
+    .paragraph{
+        
+    }
